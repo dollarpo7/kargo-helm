@@ -18,7 +18,7 @@ spec:
     spec:
       destination:
         namespace: kargo-helm-{{path.basename}}
-        name: demo
+        name: rystad-aks-stage
       project: kargo-helm
       source:
         path: charts/guestbook
